@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header >
+        
+        <!--https://materializecss.com/-->
+        <nav class="grey darken-4">
+            <div class="nav-wrapper">
+              
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="hem.html">Hem</a></li>
+                <li><a href="bootstrap.html">Bootstrap</a></li>
+                <li><a href="materialize.html">Materialize</a></li>
+                <li><a href="publicering.html">Publicering</a></li>
+              </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="hem.html">Hem</a></li>
+            <li><a href="bootstrap.html">Bootstrap</a></li>
+            <li><a href="materialize.html">Materialize</a></li>
+            <li><a href="publicering.html">Publicering</a></li>
+        </ul>
+
+    </header>
+    <main>
+        
+        <div class="container">
+
+            <article>
+                <div class="row"></div>
+                <div class="row"></div>
+                <h4>
+                    OM MATERIALIZE
+                </h4>
+               
+                <p class="flow-text">
+                   Materialize är grundat på material design och beskriver sig som ett reponsivt ramverk som ska vara enkelt att använda och vara stilfullt och effektivt
+                   <br>
+                   Materialize finns att hitta på <a href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+                </p>
+                <h4>
+                    MIN ERFARENHET AV MATERIALIZE
+                </h4>
+                <p class="flow-text">
+                    Detta blev det andra ramverket för css jag någonsin använt och kontrasten mot bootstrap är i min mening väldigt stor. 
+                    <br>
+                    Jag gillade inte alls att använda denna. Det var svårt att hitta information om hur jag skulle göra och väldigt mycket gick inte att anpassa genom att enbart använda ramverket. 
+                    <br>
+                    Jag uppfattade uppgiften som så att vi skulle få de olika sidorna att se så lika ut som möjligt. 
+                    <br> 
+                    Jag tycker att jag lyckades ganska bra på full skärm men i mindre skärm skalar materialize konstigt. 
+                    <br>
+                    Jag gillar inte deras reponsivitet och inte det faktum att det är svårt att anpassa som man vill. 
+                    <br>
+                    Dom har dock ett helt annorlunda utseende än vad man är van vid i t.ex formulär och det uppskattar jag.     
+                </p>
+            
+            </article>
+        </div>
+        <div class="container col s12">
+            <div class="row"></div>
+            <div class="row"></div>
+            <table class="responsive-table striped grey lighten-2 z-depth-3">
+                <thead class="grey lighten-1">
+                    <tr>
+                        <th>#</th>
+                        <th>Förnamn</th>
+                        <th>Efternamn</th>
+                        <th>Status</th>
+                        <th>Antal</th>
+                        <th>Premunant</th>
+                        <th>Övrigt</th>
+                    </tr>
+                </thead>
+                    
+                <tbody>
+                    <tr class="">
+                        <th class="grey lighten-1">1</th>
+                        <td >Lisa</td>
+                        <td >Andresson</td>
+                        <td class="green lighten-4">Aktiv</td>
+                        <td>4</td>
+                        <td>Nej</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th class="grey lighten-1">2</th>
+                        <td>Jacob</td>
+                        <td>Börjesson</td>
+                        <td class="lime lighten-4">Avvaktande</td>
+                        <td>2</td>
+                        <td>Ja</td>
+                        <td>Återkommer i december</td>
+
+                    </tr>
+                    <tr>
+                        <th class="grey lighten-1">3</th>
+                        <td>Mia</td>
+                        <td>Knutsson</td>
+                        <td class="green lighten-4">Aktiv</td>
+                        <td>3</td>
+                        <td>Ja</td>
+                        <td>Tagit över premunationen från sin dotter</td>
+                    </tr>
+                    <tr>
+                        <th class="grey lighten-1">4</th>
+                        <td>Adam</td>
+                        <td>Jonsson</td>
+                        <td class="grey lighten-1">Avslutad</td>
+                        <td>0</td>
+                        <td>Nej</td>
+                        <td>Vill inte bli tillfrågad om premunation</td>
+                    </tr>
+                    <tr >
+                        <th class="grey lighten-1">5</th>
+                        <td>Henrik</td>
+                        <td>Asp</td>
+                        <td class=" red lighten-3">Prio</td>
+                        <td >10</td>
+                        <td>Ja</td>
+                        <td>Har mycket bråttom med sin order</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row">
+            
+                <form class="col s12 grey lighten-2 z-depth-3">
+                        <div class="row"></div>
+                        <legend class="col s12 center-align" ><h4>Lägg till ny kund</h4></legend>
+                        
+                        
+                        <div class="input-field col s12 m6 l3">
+                            <h5>Förnamn</h5>
+                            <label for="forname"></label>
+                            <input type="text" class="row validate white" id="forname">
+                            <span class="helper-text" data-error="wrong" data-success="right"></span>   
+                        </div>
+                        
+                        <div class="input-field col s12 m6 l3">
+                            <h5>Efternamn</h5>
+                            <label for="lastname" class=""></label>
+                            <input type="text" class="validate white form-control" id="lastname">
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12 m6 l3">
+                                <h5>Status</h5>
+                                <label for="status"></label>
+                                <select id="status" class="validate browser-default white" >
+                                    <option class="text-black" value="" disabled selected>Välj en status</option>
+                                    <option value="1">Aktiv</option>
+                                    <option value="2">Avvaktande</option>
+                                    <option value="3">Prio</option>
+                                    <option value="4">Avslutad</option>
+                                </select>
+                            </div>
+                                    
+                            <div class="input-field col s12 m6 l3">
+                                <h5>Antal</h5>
+                                <label for="number"></label>
+                                <input type="text" class="validate white" id="number" >
+                            </div>
+                        </div>        
+                        <div class="col s12">
+                            <h5>Premunant</h5>
+                            <div>
+                                <label class="col s3">
+                                    <input type="checkbox">
+                                    <span>Ja</span>
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="checkbox">
+                                    <span>Nej</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row"></div>
+                        
+                        <div class="input-field col s12">
+                            <h5>Övrig information</h5>
+                            <label for="other"></label>
+                            <textarea class="white materialize-textarea" class="white" id="other" >
+                            </textarea>
+                        </div>
+                
+                        <div>
+                            <button type="submit" class="btn btn-primary  blue darken-1">Submit</button>
+                        </div>
+                        <div class="row"></div>
+                    </div>
+                </form>
+            </div>
+
+         </main>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
+   
+    
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+            
+        });
+        $(document).ready(function(){
+             $('.sidenav').sidenav();
+             $('input#input_text, textarea#textarea2').characterCounter();
+             $('select').formSelect();
+             $('#textarea1').val('New Text');
+             M.updateTextFields();
+        });
+   
+        
+    </script>
+   
+</body>
+</html>
